@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/index.js" type="text/javascript"></script>
+    <title>Mi proyecto</title>
+</head>
+
+<body>
+    <div style="margin-bottom: 10px;">
+        <input type="number" min="0" step="0.1" id="inputDinero">
+        <button id="btnDinero" onclick="mostrarHelados()">Compruebe alcance</button>
+    </div>
+    <!-- ESTE ES UN COMBO BOX -->
+    Seleccionar helado: 
+    <select name="helados" id="helados">
+        <option value="Helado 1">Helado 1</option>
+        <option value="Helado 2">Helado 2</option>
+        <option value="Helado 3">Helado 3</option>
+        <option value="Helado 4">Helado 4</option>
+        <option value="Helado 5">Helado 5</option>
+        <option value="Helado 6">Helado 6</option>
+        <option value="Helado 7">Helado 7</option>
+    </select>
+    <button id="btnComprar" onclick="imprimirCompra()">Comprar</button>
+    <div id="contenedorCompra" style="margin-top: 10px;">
+        <!-- ESTO ES PARA LA CARGA DE INFORMACION -->
+        <h4 id="dineroYalcance"></h4> 
+    </div>
+</body>
+
+</html>

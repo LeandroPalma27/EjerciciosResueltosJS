@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+    <script src="../js/index.js" type="text/javascript"></script>
+    <title>Notificar incidencia</title>
+</head>
+
+<body>
+    <div class="contenedor-global">
+        <div class="global__contenedor-form">
+            <section class="section-data">
+                <div class="contenedor-data">
+                    <label for="" class="label-datos">Datos de la incidencia</label>
+                    <div class="data">
+                        <label for="">Usuario:</label>
+                        <input type="text" id="usu">
+                        <label for="">Departamento:</label>
+                        <select name="departamentos" id="departamentos">
+                            <option value="Informatica">Informatica</option>
+                            <option value="Recursos">Recursos</option>
+                            <option value="Psicologia">Psicologia</option>
+                            <option value="Videojuegos">Videojuegos</option>
+                        </select>
+                        <label for="">Descripcion:</label>
+                        <textarea name="" id="incidencia" cols="30" rows="10" placeholder="Describa la incidencia..."></textarea>
+                        <label for="">Contraseña:</label>
+                        <input type="password" id="pass">
+                    </div>
+                </div>
+            </section>
+            <section class="section-buttons">
+                <div class="contenedor-buttons">
+                    <label for="" class="label-buttons">Confirmacion</label>
+                    <div class="input-group">
+                        <button onclick="obtenerData()">Enviar</button>
+                        <button onclick="reseteoDatos()">Resetear</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
