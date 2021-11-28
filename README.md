@@ -1,4 +1,4 @@
-# Mi repositorio personal de ejercios de JavaScript (resueltos y propuestos)
+# Mi repositorio personal de ejercicios de JavaScript (resueltos y propuestos)
 
 En este repositorio encontraras algunos ejercicios que a lo largo de mi carrera ire desarrollando.
 
